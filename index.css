@@ -1,8 +1,11 @@
 body {
   font-family: "Spline Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 nav {
@@ -18,16 +21,21 @@ nav {
     background-color: cadetblue;
 }
 
+aside {
+    display: flex;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
 ul {
     display: flex;
     flex-direction: column;
     gap: 1ch;
     width: 10vw;
-    justify-content: center;
-    justify-content: space-around;
-    align-items: stretch;
+    justify-content: flex-start;
     list-style-type: none;
-    padding: 0;
+    padding-left: 0px;
+
     li {
         border: 1px solid cadetblue;
         background-color: aliceblue;
@@ -44,7 +52,6 @@ main {
 
 footer {
     display: flex;
-    flex-grow: 1;
     background-color: cornflowerblue;
     color: white;
 }
