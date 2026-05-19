@@ -1,0 +1,62 @@
+body {
+  font-family: "Spline Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10ch;
+}
+
+.brand {
+    font-size: 28pt;
+    font-weight: 700;
+    text-align: center;
+    background-color: cadetblue;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1ch;
+    width: 10vw;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: stretch;
+    list-style-type: none;
+    padding: 0;
+    li {
+        border: 1px solid cadetblue;
+        background-color: aliceblue;
+        border-radius: 18px;
+        text-align: center;
+    }
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+    align-items: stretch;
+}
+
+footer {
+    display: flex;
+    flex-grow: 1;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.testimonial {
+    background-color: aliceblue;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+}
