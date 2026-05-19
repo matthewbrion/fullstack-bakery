@@ -1,11 +1,11 @@
 body {
-  font-family: "Spline Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+    font-family: "Spline Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 nav {
@@ -18,25 +18,20 @@ nav {
     font-size: 28pt;
     font-weight: 700;
     text-align: center;
-    background-color: cadetblue;
-    color: whitesmoke;
+    background-color: #345555;
+    color: #f5f5f5;
     padding: 1em;
-}
-
-aside {
-    display: flex;
-    padding-top: 4rem;
-    margin-left: 1rem;
 }
 
 ul {
     display: flex;
     flex-direction: column;
-    gap: 1ch;
+    gap: 2ch;
     width: 10vw;
     justify-content: flex-start;
+    align-content: space-evenly;
     list-style-type: none;
-    padding-left: 0rem;
+    padding-top: 4em;
 
     li {
         border: 1px solid cadetblue;
@@ -54,8 +49,11 @@ main {
 
 footer {
     display: flex;
-    background-color: cornflowerblue;
+    background-color: #1650BB;
     color: white;
+    height: 2rem;
+    align-items: center;
+    padding-left: 1em;
 }
 
 .testimonial {
@@ -67,5 +65,5 @@ footer {
 article {
     display: flex;
     flex-direction: column;
-    padding: 2em 4em;
+    margin: 2em 4em;
 }
