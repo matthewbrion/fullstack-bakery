@@ -19,12 +19,14 @@ nav {
     font-weight: 700;
     text-align: center;
     background-color: cadetblue;
+    color: whitesmoke;
+    padding: 1em;
 }
 
 aside {
     display: flex;
-    padding-top: 50px;
-    padding-left: 10px;
+    padding-top: 4rem;
+    margin-left: 1rem;
 }
 
 ul {
@@ -34,7 +36,7 @@ ul {
     width: 10vw;
     justify-content: flex-start;
     list-style-type: none;
-    padding-left: 0px;
+    padding-left: 0rem;
 
     li {
         border: 1px solid cadetblue;
@@ -58,12 +60,12 @@ footer {
 
 .testimonial {
     background-color: aliceblue;
-    padding-bottom: 10px;
-    padding-left: 10px;
+    padding-bottom: 1em;
+    padding-left: 2em;
 }
 
 article {
     display: flex;
     flex-direction: column;
-    padding: 10px 30px;
+    padding: 2em 4em;
 }
